@@ -3,4 +3,4 @@ project(SA_IMG4Linux_CLI)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(saimgtool main.cpp IMGFile.cpp IMGFile.h)
+add_executable(saimgtool src/main.cpp src/IMGFile.cpp src/IMGFile.h)
